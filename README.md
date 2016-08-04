@@ -1,6 +1,6 @@
 # Vim Ginkgo Snippets
 
-Snippets for the BDD testing framework [Ginkgo](https://github.com/onsi/ginkgo).
+Snippets for the BDD testing framework [Ginkgo](https://github.com/onsi/ginkgo). These snippets pair well with [vim-gomega-snippets](https://github.com/trayo/vim-gomega-snippets).
 
 ## Installation
 
