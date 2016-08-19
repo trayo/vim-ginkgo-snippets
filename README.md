@@ -2,6 +2,8 @@
 
 Snippets for the BDD testing framework [Ginkgo](https://github.com/onsi/ginkgo). These snippets pair well with [vim-gomega-snippets](https://github.com/trayo/vim-gomega-snippets).
 
+<img src="http://i.imgur.com/J7ydMva.gif" width="750">
+
 ## Installation
 
 ### Vundle
