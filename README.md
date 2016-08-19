@@ -4,6 +4,11 @@ Snippets for the BDD testing framework [Ginkgo](https://github.com/onsi/ginkgo).
 
 <img src="http://i.imgur.com/J7ydMva.gif" width="750">
 
+## Requirments
+
+These snippets are currently only made to work with [vim-snipmate](https://github.com/garbas/vim-snipmate).
+[UltiSnips](https://github.com/SirVer/ultisnips) support is planned for the near future.
+
 ## Installation
 
 ### Vundle
