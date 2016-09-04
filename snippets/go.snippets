@@ -1,201 +1,203 @@
+##### ginkgo #####
+
 # GinkgoWriter
-snippet gw
+snippet gw GinkgoWriter
 	GinkgoWriter
 
-# AfterEach
-snippet ae
+# AfterEach(body interface{}, timeout ...float64) bool
+snippet ae AfterEach(body interface{}, timeout ...float64) bool
 	AfterEach(func() {
 		${0}
 	})
-snippet aft
+snippet aft AfterEach(body interface{}, timeout ...float64) bool
 	AfterEach(func() {
 		${0}
 	})
-snippet Aft
+snippet Aft AfterEach(body interface{}, timeout ...float64) bool
 	AfterEach(func() {
 		${0}
 	})
-snippet afe
+snippet afe AfterEach(body interface{}, timeout ...float64) bool
 	AfterEach(func() {
 		${0}
 	})
-snippet aftereach
+snippet aftereach AfterEach(body interface{}, timeout ...float64) bool
 	AfterEach(func() {
 		${0}
 	})
-snippet AfterEach
+snippet AfterEach AfterEach(body interface{}, timeout ...float64) bool
 	AfterEach(func() {
 		${0}
 	})
 
-# AfterSuite
-snippet as
+# AfterSuite(body interface{}, timeout ...float64) bool
+snippet as AfterSuite(body interface{}, timeout ...float64) bool
 	AfterSuite(func() {
 		${0}
 	})
-snippet afts
+snippet afts AfterSuite(body interface{}, timeout ...float64) bool
 	AfterSuite(func() {
 		${0}
 	})
-snippet afs
+snippet afs AfterSuite(body interface{}, timeout ...float64) bool
 	AfterSuite(func() {
 		${0}
 	})
-snippet aftersuite
+snippet aftersuite AfterSuite(body interface{}, timeout ...float64) bool
 	AfterSuite(func() {
 		${0}
 	})
-snippet AfterSuite
+snippet AfterSuite AfterSuite(body interface{}, timeout ...float64) bool
 	AfterSuite(func() {
 		${0}
 	})
 
-# BeforeEach
-snippet be
+# BeforeEach(body interface{}, timeout ...float64) bool
+snippet be BeforeEach(body interface{}, timeout ...float64) bool
 	BeforeEach(func() {
 		${0}
 	})
-snippet bef
+snippet bef BeforeEach(body interface{}, timeout ...float64) bool
 	BeforeEach(func() {
 		${0}
 	})
-snippet Bef
+snippet Bef BeforeEach(body interface{}, timeout ...float64) bool
 	BeforeEach(func() {
 		${0}
 	})
-snippet bfe
+snippet bfe BeforeEach(body interface{}, timeout ...float64) bool
 	BeforeEach(func() {
 		${0}
 	})
-snippet beforeeach
+snippet beforeeach BeforeEach(body interface{}, timeout ...float64) bool
 	BeforeEach(func() {
 		${0}
 	})
-snippet BeforeEach
+snippet BeforeEach BeforeEach(body interface{}, timeout ...float64) bool
 	BeforeEach(func() {
 		${0}
 	})
 
-# BeforeSuite
-snippet bs
+# BeforeSuite(body interface{}, timeout ...float64) bool
+snippet bs BeforeSuite(body interface{}, timeout ...float64) bool
 	BeforeSuite(func() {
 		${0}
 	})
-snippet befs
+snippet befs BeforeSuite(body interface{}, timeout ...float64) bool
 	BeforeSuite(func() {
 		${0}
 	})
-snippet bfs
+snippet bfs BeforeSuite(body interface{}, timeout ...float64) bool
 	BeforeSuite(func() {
 		${0}
 	})
-snippet beforesuite
+snippet beforesuite BeforeSuite(body interface{}, timeout ...float64) bool
 	BeforeSuite(func() {
 		${0}
 	})
-snippet BeforeSuite
+snippet BeforeSuite BeforeSuite(body interface{}, timeout ...float64) bool
 	BeforeSuite(func() {
 		${0}
 	})
 
-# By
-snippet by
+# By(text string, callbacks ...func())
+snippet by By(text string, callbacks ...func())
 	By("${1}")
-snippet By
+snippet By By(text string, callbacks ...func())
 	By("${1}")
 
-# Context
-snippet co
+# Context(text string, body func()) bool
+snippet co Context(text string, body func()) bool
 	Context("${1}", func(){
 		${0}
 	})
-snippet Co
+snippet Co Context(text string, body func()) bool
 	Context("${1}", func(){
 		${0}
 	})
-snippet con
+snippet con Context(text string, body func()) bool
 	Context("${1}", func(){
 		${0}
 	})
-snippet Con
+snippet Con Context(text string, body func()) bool
 	Context("${1}", func(){
 		${0}
 	})
-snippet cont
+snippet cont Context(text string, body func()) bool
 	Context("${1}", func(){
 		${0}
 	})
-snippet context
+snippet context Context(text string, body func()) bool
 	Context("${1}", func(){
 		${0}
 	})
 
-# Describe
-snippet des
+# Describe(text string, body func()) bool
+snippet des Describe(text string, body func()) bool
 	Describe("${1}", func(){
 		${0}
 	})
-snippet Des
+snippet Des Describe(text string, body func()) bool
 	Describe("${1}", func(){
 		${0}
 	})
-snippet desc
+snippet desc Describe(text string, body func()) bool
 	Describe("${1}", func(){
 		${0}
 	})
-snippet Desc
+snippet Desc Describe(text string, body func()) bool
 	Describe("${1}", func(){
 		${0}
 	})
-snippet describe
+snippet describe Describe(text string, body func()) bool
 	Describe("${1}", func(){
 		${0}
 	})
-snippet Describe
+snippet Describe Describe(text string, body func()) bool
 	Describe("${1}", func(){
 		${0}
 	})
 
-# It
-snippet it
+# It(text string, body interface{}, timeout ...float64) bool
+snippet it It(text string, body interface{}, timeout ...float64) bool
 	It("${1}", func(){
 		${0}
 	})
-snippet It
+snippet It It(text string, body interface{}, timeout ...float64) bool
 	It("${1}", func(){
 		${0}
 	})
 
-# JustBeforeEach
-snippet jus
+# JustBeforeEach(body interface{}, timeout ...float64) bool
+snippet jus JustBeforeEach(body interface{}, timeout ...float64) bool
 	JustBeforeEach(func() {
 		${0}
 	})
-snippet Jus
+snippet Jus JustBeforeEach(body interface{}, timeout ...float64) bool
 	JustBeforeEach(func() {
 		${0}
 	})
-snippet jbe
+snippet jbe JustBeforeEach(body interface{}, timeout ...float64) bool
 	JustBeforeEach(func() {
 		${0}
 	})
-snippet just
+snippet just JustBeforeEach(body interface{}, timeout ...float64) bool
 	JustBeforeEach(func() {
 		${0}
 	})
-snippet Just
+snippet Just JustBeforeEach(body interface{}, timeout ...float64) bool
 	JustBeforeEach(func() {
 		${0}
 	})
-snippet justbefore
+snippet justbefore JustBeforeEach(body interface{}, timeout ...float64) bool
 	JustBeforeEach(func() {
 		${0}
 	})
-snippet JustBefore
+snippet JustBefore JustBeforeEach(body interface{}, timeout ...float64) bool
 	JustBeforeEach(func() {
 		${0}
 	})
-snippet justbeforeeach
+snippet justbeforeeach JustBeforeEach(body interface{}, timeout ...float64) bool
 	JustBeforeEach(func() {
 		${0}
 	})
