@@ -3,7 +3,15 @@ snippet gw
 	GinkgoWriter
 
 # AfterEach
+snippet ae
+	AfterEach(func() {
+		${0}
+	})
 snippet aft
+	AfterEach(func() {
+		${0}
+	})
+snippet Aft
 	AfterEach(func() {
 		${0}
 	})
@@ -15,8 +23,16 @@ snippet aftereach
 	AfterEach(func() {
 		${0}
 	})
+snippet AfterEach
+	AfterEach(func() {
+		${0}
+	})
 
 # AfterSuite
+snippet as
+	AfterSuite(func() {
+		${0}
+	})
 snippet afts
 	AfterSuite(func() {
 		${0}
@@ -29,9 +45,21 @@ snippet aftersuite
 	AfterSuite(func() {
 		${0}
 	})
+snippet AfterSuite
+	AfterSuite(func() {
+		${0}
+	})
 
 # BeforeEach
+snippet be
+	BeforeEach(func() {
+		${0}
+	})
 snippet bef
+	BeforeEach(func() {
+		${0}
+	})
+snippet Bef
 	BeforeEach(func() {
 		${0}
 	})
@@ -43,8 +71,16 @@ snippet beforeeach
 	BeforeEach(func() {
 		${0}
 	})
+snippet BeforeEach
+	BeforeEach(func() {
+		${0}
+	})
 
 # BeforeSuite
+snippet bs
+	BeforeSuite(func() {
+		${0}
+	})
 snippet befs
 	BeforeSuite(func() {
 		${0}
@@ -57,9 +93,15 @@ snippet beforesuite
 	BeforeSuite(func() {
 		${0}
 	})
+snippet BeforeSuite
+	BeforeSuite(func() {
+		${0}
+	})
 
 # By
 snippet by
+	By("${1}")
+snippet By
 	By("${1}")
 
 # Context
@@ -67,7 +109,15 @@ snippet co
 	Context("${1}", func(){
 		${0}
 	})
+snippet Co
+	Context("${1}", func(){
+		${0}
+	})
 snippet con
+	Context("${1}", func(){
+		${0}
+	})
+snippet Con
 	Context("${1}", func(){
 		${0}
 	})
@@ -85,11 +135,23 @@ snippet des
 	Describe("${1}", func(){
 		${0}
 	})
+snippet Des
+	Describe("${1}", func(){
+		${0}
+	})
 snippet desc
 	Describe("${1}", func(){
 		${0}
 	})
+snippet Desc
+	Describe("${1}", func(){
+		${0}
+	})
 snippet describe
+	Describe("${1}", func(){
+		${0}
+	})
+snippet Describe
 	Describe("${1}", func(){
 		${0}
 	})
@@ -99,9 +161,17 @@ snippet it
 	It("${1}", func(){
 		${0}
 	})
+snippet It
+	It("${1}", func(){
+		${0}
+	})
 
 # JustBeforeEach
 snippet jus
+	JustBeforeEach(func() {
+		${0}
+	})
+snippet Jus
 	JustBeforeEach(func() {
 		${0}
 	})
@@ -113,7 +183,15 @@ snippet just
 	JustBeforeEach(func() {
 		${0}
 	})
+snippet Just
+	JustBeforeEach(func() {
+		${0}
+	})
 snippet justbefore
+	JustBeforeEach(func() {
+		${0}
+	})
+snippet JustBefore
 	JustBeforeEach(func() {
 		${0}
 	})
